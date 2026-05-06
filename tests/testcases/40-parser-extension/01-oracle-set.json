@@ -1,0 +1,21 @@
+{
+    "TransactionType": "OracleSet",
+    "Account": "OWN_ADDR",
+    "OracleDocumentID": 1,
+    "Provider": "636861696E6C696E6B",
+    "URI": "68747470733A2F2F6578616D706C652E636F6D",
+    "LastUpdateTime": 778878000,
+    "AssetClass": "63757272656E6379",
+    "PriceDataSeries": [{
+        "PriceData": {
+            "BaseAsset": "XRP",
+            "QuoteAsset": "USD",
+            "AssetPrice": "1234",
+            "Scale": 2
+        }
+    }],
+    "Fee": "10",
+    "Flags": 0,
+    "Sequence": 8,
+    "SigningPubKey": "OWN_PUBKEY"
+}

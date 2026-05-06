@@ -24,9 +24,10 @@
 #include "limitations.h"
 
 typedef enum {
-    // Normal field types
+    // Values match XRPL canonical wire-type codes
     STI_UINT16 = 0x01,
     STI_UINT32 = 0x02,
+    STI_UINT64 = 0x03,
     STI_HASH128 = 0x04,
     STI_HASH256 = 0x05,
     STI_AMOUNT = 0x06,
@@ -37,10 +38,9 @@ typedef enum {
     STI_UINT8 = 0x10,
     STI_PATHSET = 0x12,
     STI_VECTOR256 = 0x13,
+    STI_HASH192 = 0x15,
     STI_ISSUE = 0x18,
-
-    // Custom field types
-    STI_CURRENCY = 0xF0,
+    STI_CURRENCY = 0x1A,
 } field_type_t;
 
 // Small collection of used field IDs
@@ -201,6 +201,10 @@ typedef struct {
 } hash128_t;
 
 typedef struct {
+    uint8_t buf[24];
+} hash192_t;
+
+typedef struct {
     uint8_t buf[32];
 } hash256_t;
 
@@ -212,7 +216,9 @@ typedef struct {
         uint8_t u8;
         uint16_t u16;
         uint32_t u32;
+        uint64_t u64;
         hash128_t *hash128;
+        hash192_t *hash192;
         hash256_t *hash256;
         xrp_account_t *account;
         xrp_currency_t *currency;

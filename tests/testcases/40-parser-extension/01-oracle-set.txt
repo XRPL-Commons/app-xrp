@@ -1,0 +1,12 @@
+Transaction Type; Unknown
+Account;   rTooLkitCks     h5mQa67eaa2     JaWHDBnHkpy   
+Unknown; 778878000
+Unknown; 1
+Fee; XRP 0.00001
+URI; https://example.com
+Unknown; 63757272656e6379
+Unknown; 636861696e6c696e6b
+Unknown [1]; 4660
+Unknown [1]; 2
+Currency [1]; XRP
+Unknown [1]; USD

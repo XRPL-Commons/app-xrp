@@ -135,11 +135,22 @@ void uint32_formatter(field_t* field, field_value_t* dst) {
     }
 }
 
+void uint64_formatter(field_t* field, field_value_t* dst) {
+    snprintf(dst->buf, sizeof(dst->buf), "%llu", (unsigned long long) field->data.u64);
+}
+
 void hash_formatter128(field_t* field, field_value_t* dst) {
     read_hex(dst->buf,
              sizeof(dst->buf),
              field->data.hash128->buf,
              sizeof(field->data.hash128->buf));
+}
+
+void hash_formatter192(field_t* field, field_value_t* dst) {
+    read_hex(dst->buf,
+             sizeof(dst->buf),
+             field->data.hash192->buf,
+             sizeof(field->data.hash192->buf));
 }
 
 void hash_formatter256(field_t* field, field_value_t* dst) {
