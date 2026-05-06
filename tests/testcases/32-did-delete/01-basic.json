@@ -1,0 +1,8 @@
+{
+    "TransactionType": "DIDDelete",
+    "Account": "OWN_ADDR",
+    "Fee": "10",
+    "Flags": 0,
+    "Sequence": 5,
+    "SigningPubKey": "OWN_PUBKEY"
+}

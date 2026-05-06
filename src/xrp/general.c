@@ -104,6 +104,10 @@ static const char* resolve_transaction_name(uint16_t value) {
             return "AMM Bid";
         case TRANSACTION_AMM_DELETE:
             return "AMM Delete";
+        case TRANSACTION_DID_SET:
+            return "DID Set";
+        case TRANSACTION_DID_DELETE:
+            return "DID Delete";
         default:
             return "Unknown";
     }

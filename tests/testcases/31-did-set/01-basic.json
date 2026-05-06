@@ -1,0 +1,11 @@
+{
+    "TransactionType": "DIDSet",
+    "Account": "OWN_ADDR",
+    "Fee": "10",
+    "Flags": 0,
+    "Sequence": 5,
+    "URI": "6469643A7872706C3A313A72546F6F4C6B6974",
+    "DIDDocument": "7B7D",
+    "Data": "68656C6C6F",
+    "SigningPubKey": "OWN_PUBKEY"
+}

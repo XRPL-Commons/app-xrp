@@ -1,0 +1,6 @@
+Transaction Type; DID Set
+Account;   rTooLkitCks     h5mQa67eaa2     JaWHDBnHkpy   
+Fee; XRP 0.00001
+URI; did:xrpl:1:rTooLkit
+DID Document; 7b7d
+Data; 68656c6c6f

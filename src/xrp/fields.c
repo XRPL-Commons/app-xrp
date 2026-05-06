@@ -203,6 +203,10 @@ const char *resolve_field_name(field_t *field) {
                 return "Fulfillment";
             case 17:
                 return "Condition";
+            case 26:
+                return "DID Document";
+            case 27:
+                return "Data";
         }
     }
 
