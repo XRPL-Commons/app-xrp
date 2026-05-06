@@ -1,0 +1,21 @@
+{
+    "TransactionType": "AMMClawback",
+    "Account": "OWN_ADDR",
+    "Holder": "rsA2LpzuawewSBQXkiju3YQTMzW13pAAdW",
+    "Asset": {
+        "currency": "USD",
+        "issuer": "OWN_ADDR"
+    },
+    "Asset2": {
+        "currency": "XRP"
+    },
+    "Amount": {
+        "currency": "USD",
+        "issuer": "OWN_ADDR",
+        "value": "100"
+    },
+    "Fee": "10",
+    "Flags": 0,
+    "Sequence": 7,
+    "SigningPubKey": "OWN_PUBKEY"
+}

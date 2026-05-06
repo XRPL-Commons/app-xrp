@@ -92,6 +92,8 @@ static const char* resolve_transaction_name(uint16_t value) {
             return "NFToken Accept Offer";
         case TRANSACTION_CLAWBACK:
             return "Clawback";
+        case TRANSACTION_AMM_CLAWBACK:
+            return "AMM Clawback";
         case TRANSACTION_AMM_CREATE:
             return "AMM Create";
         case TRANSACTION_AMM_DEPOSIT:

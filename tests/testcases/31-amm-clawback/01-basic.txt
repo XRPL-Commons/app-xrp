@@ -1,0 +1,9 @@
+Transaction Type; AMM Clawback
+Account;   rTooLkitCks     h5mQa67eaa2     JaWHDBnHkpy   
+Amount; USD 100
+Issuer;   rTooLkitCks     h5mQa67eaa2     JaWHDBnHkpy   
+Fee; XRP 0.00001
+Holder;   rsA2Lpzuawew    SBQXkiju3YQ     TMzW13pAAdW   
+Asset; USD
+Issuer;   rTooLkitCks     h5mQa67eaa2     JaWHDBnHkpy   
+Asset 2; XRP

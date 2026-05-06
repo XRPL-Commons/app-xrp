@@ -232,6 +232,8 @@ const char *resolve_field_name(field_t *field) {
                 return "Regular Key";
             case 9:
                 return "NFToken Minter";
+            case 11:
+                return "Holder";
         }
     }
 

@@ -137,6 +137,7 @@ typedef enum {
 #define XRP_ACCOUNT_UNAUTHORIZE                0x06
 #define XRP_ACCOUNT_REGULAR_KEY                0x08
 #define XRP_ACCOUNT_NFTOKEN_MINTER             0x09
+#define XRP_ACCOUNT_HOLDER                     0x0B
 #define XRP_ACCOUNT_OTHER_CHAIN_SOURCE         0x12
 #define XRP_ACCOUNT_OTHER_CHAIN_DESTINATION    0x13
 #define XRP_ACCOUNT_ATTESTATION_SIGNER_ACCOUNT 0x14
