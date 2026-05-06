@@ -1,4 +1,6 @@
-Transaction Type; MPT Authorize
+Transaction Type; MPT Issuance Set
 Account;   rTooLkitCks     h5mQa67eaa2     JaWHDBnHkpy   
+Flags; Lock
 Fee; XRP 0.00001
+Holder;   rsA2Lpzuawew    SBQXkiju3YQ     TMzW13pAAdW   
 MPT Issuance ID; 00000abcdef0123456789abcdef0123456789abcdef01234

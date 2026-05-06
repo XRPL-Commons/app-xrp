@@ -1,0 +1,12 @@
+{
+    "TransactionType": "MPTokenIssuanceCreate",
+    "Account": "OWN_ADDR",
+    "AssetScale": 6,
+    "MaximumAmount": "1000000000",
+    "TransferFee": 250,
+    "MPTokenMetadata": "7B226E616D65223A2244656D6F204D5054227D",
+    "Flags": 96,
+    "Fee": "10",
+    "Sequence": 12,
+    "SigningPubKey": "OWN_PUBKEY"
+}

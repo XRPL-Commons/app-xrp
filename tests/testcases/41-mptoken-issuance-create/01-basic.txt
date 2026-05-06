@@ -1,0 +1,8 @@
+Transaction Type; MPT Issuance Create
+Account;   rTooLkitCks     h5mQa67eaa2     JaWHDBnHkpy   
+Transfer Fee; 250
+Flags; Can Transfer, Can Clawback
+Maximum Amount; 1000000000
+Fee; XRP 0.00001
+MPT Metadata; 7b226e616d65223a2244656d6f204d5054227d
+Asset Scale; 6

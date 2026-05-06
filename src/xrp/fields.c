@@ -203,6 +203,22 @@ const char *resolve_field_name(field_t *field) {
                 return "Fulfillment";
             case 17:
                 return "Condition";
+            case 30:
+                return "MPT Metadata";
+        }
+    }
+
+    if (field->data_type == STI_HASH192) {
+        switch (field->id) {
+            case 1:
+                return "MPT Issuance ID";
+        }
+    }
+
+    if (field->data_type == STI_UINT64) {
+        switch (field->id) {
+            case 24:
+                return "Maximum Amount";
         }
     }
 
@@ -232,6 +248,8 @@ const char *resolve_field_name(field_t *field) {
                 return "Regular Key";
             case 9:
                 return "NFToken Minter";
+            case 11:
+                return "Holder";
         }
     }
 
@@ -272,6 +290,8 @@ const char *resolve_field_name(field_t *field) {
     if (field->data_type == STI_UINT8) {
         switch (field->id) {
             // 8-bit integers
+            case 5:
+                return "Asset Scale";
             case 16:
                 return "Tick Size";
         }

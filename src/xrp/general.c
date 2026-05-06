@@ -104,6 +104,14 @@ static const char* resolve_transaction_name(uint16_t value) {
             return "AMM Bid";
         case TRANSACTION_AMM_DELETE:
             return "AMM Delete";
+        case TRANSACTION_MPTOKEN_ISSUANCE_CREATE:
+            return "MPT Issuance Create";
+        case TRANSACTION_MPTOKEN_ISSUANCE_DESTROY:
+            return "MPT Issuance Destroy";
+        case TRANSACTION_MPTOKEN_ISSUANCE_SET:
+            return "MPT Issuance Set";
+        case TRANSACTION_MPTOKEN_AUTHORIZE:
+            return "MPT Authorize";
         default:
             return "Unknown";
     }

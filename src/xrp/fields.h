@@ -46,7 +46,8 @@ typedef enum {
 // Small collection of used field IDs
 
 // UINT8
-#define XRP_UINT8_TICK_SIZE 0x10
+#define XRP_UINT8_ASSET_SCALE 0x05
+#define XRP_UINT8_TICK_SIZE   0x10
 // UINT16
 #define XRP_UINT16_TRANSACTION_TYPE 0x02
 #define XRP_UINT16_SIGNER_WEIGHT    0x03
@@ -93,6 +94,11 @@ typedef enum {
 #define XRP_HASH256_CHECK_ID           0x18
 #define XRP_HASH256_NFTOKEN_BUY_OFFER  0x1C
 #define XRP_HASH256_NFTOKEN_SELL_OFFER 0x1D
+// HASH192
+#define XRP_HASH192_MPTOKEN_ISSUANCE_ID 0x01
+// UINT64 (true UInt64 wire-type fields; the XRP_UINT64_* block below
+// is historical and applies to Amount-typed fields)
+#define XRP_U64_MAXIMUM_AMOUNT 0x18
 // AMOUNT
 #define XRP_UINT64_AMOUNT                    0x01
 #define XRP_UINT64_BALANCE                   0x02
@@ -126,8 +132,9 @@ typedef enum {
 #define XRP_VL_MEMO_FORMAT     0x0E
 #define XRP_VL_FULFILLMENT     0x10
 #define XRP_VL_CONDITION       0x11
-#define XRP_VL_DID_DOCUMENT    0x1A
-#define XRP_VL_DATA            0x1B
+#define XRP_VL_DID_DOCUMENT     0x1A
+#define XRP_VL_DATA             0x1B
+#define XRP_VL_MPTOKEN_METADATA 0x1E
 // AccountID
 #define XRP_ACCOUNT_ACCOUNT                    0x01
 #define XRP_ACCOUNT_OWNER                      0x02
@@ -137,6 +144,7 @@ typedef enum {
 #define XRP_ACCOUNT_UNAUTHORIZE                0x06
 #define XRP_ACCOUNT_REGULAR_KEY                0x08
 #define XRP_ACCOUNT_NFTOKEN_MINTER             0x09
+#define XRP_ACCOUNT_HOLDER                     0x0B
 #define XRP_ACCOUNT_OTHER_CHAIN_SOURCE         0x12
 #define XRP_ACCOUNT_OTHER_CHAIN_DESTINATION    0x13
 #define XRP_ACCOUNT_ATTESTATION_SIGNER_ACCOUNT 0x14
