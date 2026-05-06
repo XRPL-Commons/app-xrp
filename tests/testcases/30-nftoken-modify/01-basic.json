@@ -1,0 +1,10 @@
+{
+    "TransactionType": "NFTokenModify",
+    "Account": "OWN_ADDR",
+    "Fee": "15",
+    "Flags": 0,
+    "Sequence": 3,
+    "NFTokenID": "000813884B6019B5DAEDA1A0CDC8D11A89D3D55B6BF14E5C00000169B774BBA8",
+    "URI": "697066733A2F2F6D6F646966696564",
+    "SigningPubKey": "OWN_PUBKEY"
+}

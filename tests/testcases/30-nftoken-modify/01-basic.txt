@@ -1,0 +1,5 @@
+Transaction Type; NFToken Modify
+Account;   rTooLkitCks     h5mQa67eaa2     JaWHDBnHkpy   
+NFToken ID; 000813884b6019b5daeda1a0cdc8d11a89d3d55b6bf14e5c00000169b774bba8
+Fee; XRP 0.000015
+URI; ipfs://modified

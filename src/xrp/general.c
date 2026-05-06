@@ -104,6 +104,8 @@ static const char* resolve_transaction_name(uint16_t value) {
             return "AMM Bid";
         case TRANSACTION_AMM_DELETE:
             return "AMM Delete";
+        case TRANSACTION_NFTOKEN_MODIFY:
+            return "NFToken Modify";
         default:
             return "Unknown";
     }
