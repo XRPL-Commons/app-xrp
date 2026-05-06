@@ -104,6 +104,10 @@ static const char* resolve_transaction_name(uint16_t value) {
             return "AMM Bid";
         case TRANSACTION_AMM_DELETE:
             return "AMM Delete";
+        case TRANSACTION_PERMISSIONED_DOMAIN_SET:
+            return "Perm. Domain Set";
+        case TRANSACTION_PERMISSIONED_DOMAIN_DELETE:
+            return "Perm. Domain Delete";
         default:
             return "Unknown";
     }

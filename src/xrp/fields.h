@@ -93,6 +93,7 @@ typedef enum {
 #define XRP_HASH256_CHECK_ID           0x18
 #define XRP_HASH256_NFTOKEN_BUY_OFFER  0x1C
 #define XRP_HASH256_NFTOKEN_SELL_OFFER 0x1D
+#define XRP_HASH256_DOMAIN_ID          0x22
 // AMOUNT
 #define XRP_UINT64_AMOUNT                    0x01
 #define XRP_UINT64_BALANCE                   0x02
@@ -128,6 +129,7 @@ typedef enum {
 #define XRP_VL_CONDITION       0x11
 #define XRP_VL_DID_DOCUMENT    0x1A
 #define XRP_VL_DATA            0x1B
+#define XRP_VL_CREDENTIAL_TYPE 0x1F
 // AccountID
 #define XRP_ACCOUNT_ACCOUNT                    0x01
 #define XRP_ACCOUNT_OWNER                      0x02
@@ -151,14 +153,16 @@ typedef enum {
 #define XRP_STOBJECT_NFTOKEN      0x0C
 #define XRP_STOBJECT_SIGNER       0x10
 #define XRP_STOBJECT_AUTH_ACCOUNT 0x1B
+#define XRP_STOBJECT_CREDENTIAL   0x21
 // STARRAY
-#define XRP_STARRAY_SIGNERS             0x03
-#define XRP_STARRAY_SIGNER_ENTRIES      0x04
-#define XRP_STARRAY_MEMOS               0x09
-#define XRP_STARRAY_NFTOKENS            0x0A
-#define XRP_STARRAY_MAJORITIES          0x10
-#define XRP_STARRAY_DISABLED_VALIDATORS 0x11
-#define XRP_STARRAY_AUTH_ACCOUNTS       0x19
+#define XRP_STARRAY_SIGNERS              0x03
+#define XRP_STARRAY_SIGNER_ENTRIES       0x04
+#define XRP_STARRAY_MEMOS                0x09
+#define XRP_STARRAY_NFTOKENS             0x0A
+#define XRP_STARRAY_MAJORITIES           0x10
+#define XRP_STARRAY_DISABLED_VALIDATORS  0x11
+#define XRP_STARRAY_AUTH_ACCOUNTS        0x19
+#define XRP_STARRAY_ACCEPTED_CREDENTIALS 0x1C
 // ISSUE
 #define XRP_ISSUE_ASSET  0x03
 #define XRP_ISSUE_ASSET2 0x04

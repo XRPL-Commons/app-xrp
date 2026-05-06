@@ -1,0 +1,5 @@
+Transaction Type; Perm. Domain Set
+Account;   rTooLkitCks     h5mQa67eaa2     JaWHDBnHkpy   
+Fee; XRP 0.00001
+Credential Type [1]; 4b5943
+Issuer [1];   rsA2Lpzuawew    SBQXkiju3YQ     TMzW13pAAdW   

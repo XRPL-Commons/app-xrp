@@ -1,0 +1,4 @@
+Transaction Type; Perm. Domain Delete
+Account;   rTooLkitCks     h5mQa67eaa2     JaWHDBnHkpy   
+Domain ID; abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789
+Fee; XRP 0.00001

@@ -129,6 +129,8 @@ const char *resolve_field_name(field_t *field) {
                 return "NFToken Offer";
             case 29:
                 return "NFToken Offer";
+            case 34:
+                return "Domain ID";
         }
     }
 
@@ -203,6 +205,8 @@ const char *resolve_field_name(field_t *field) {
                 return "Fulfillment";
             case 17:
                 return "Condition";
+            case 31:
+                return "Credential Type";
         }
     }
 
@@ -249,6 +253,8 @@ const char *resolve_field_name(field_t *field) {
                 return "Signer";
             case 27:
                 return "Auth Account";
+            case 33:
+                return "Credential";
         }
     }
 
@@ -266,6 +272,8 @@ const char *resolve_field_name(field_t *field) {
                 return "NFTokens";
             case 25:
                 return "Auth Accounts";
+            case 28:
+                return "Accepted Credentials";
         }
     }
 

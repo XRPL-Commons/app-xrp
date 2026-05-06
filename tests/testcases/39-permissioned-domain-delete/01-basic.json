@@ -1,0 +1,9 @@
+{
+    "TransactionType": "PermissionedDomainDelete",
+    "Account": "OWN_ADDR",
+    "DomainID": "ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789",
+    "Fee": "10",
+    "Flags": 0,
+    "Sequence": 13,
+    "SigningPubKey": "OWN_PUBKEY"
+}

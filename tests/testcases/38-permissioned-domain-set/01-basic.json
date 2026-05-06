@@ -1,0 +1,16 @@
+{
+    "TransactionType": "PermissionedDomainSet",
+    "Account": "OWN_ADDR",
+    "AcceptedCredentials": [
+        {
+            "Credential": {
+                "Issuer": "rsA2LpzuawewSBQXkiju3YQTMzW13pAAdW",
+                "CredentialType": "4B5943"
+            }
+        }
+    ],
+    "Fee": "10",
+    "Flags": 0,
+    "Sequence": 12,
+    "SigningPubKey": "OWN_PUBKEY"
+}
